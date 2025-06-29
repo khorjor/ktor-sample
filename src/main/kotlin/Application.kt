@@ -12,6 +12,7 @@ fun Application.module() {
     // ติดตั้งปลั๊กอิน ContentNegotiation
     install(ContentNegotiation) {
         json()
+        
     }
 
     // เรียกใช้ฟังก์ชันที่กำหนด endpoints จากไฟล์อื่น
